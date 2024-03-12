@@ -11,7 +11,7 @@ export default function VanDetails(){
     }, [params.id])
 
     return (
-        <div className="container">
+        <div className="container min-height">
             <div className="van-detail-container max-width">
                 {van ? (
                     <div className="van-detail">
